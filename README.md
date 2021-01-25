@@ -14,7 +14,8 @@ contract Ownable {
 ```
 
 ## Métodos 
-````
+
+````solidity
 
 contract MyContrato {
 
@@ -43,7 +44,7 @@ contract MyContrato {
 Dentro de un contrato hacemos el siguiente modificaor personalizado de la siguiente forma.
 
 
-```
+```solidity
 contract MyContrato {
 
     string private mensaje;
@@ -71,7 +72,7 @@ contract MyContrato {
 
 `ContratoPadre.sol`
 
-````
+````solidity
 contract ContratoPadre {
 
 }
@@ -79,7 +80,7 @@ contract ContratoPadre {
 
 `ContratoHijo.sol`
 
-````
+````solidity
 import "./ContratoPadre.sol";
 
 contract ContratoHijo is ContratoPadre {
@@ -93,7 +94,7 @@ Son métodos que requieren cierta cantidad de divisa para poder ejecutarse. Para
 
 
 
-````
+````solidity
 
 contract ContratoConPago {
 
@@ -117,7 +118,7 @@ contract ContratoConPago {
 
 
 
-````
+````solidity
 
 contract MyContrato {
 
@@ -134,7 +135,7 @@ contract MyContrato {
 En el siguiente fragmento se muestra un ejemplo de como transferir
 divisas a la cuenta del propietario del contrato como a otra cuenta.
 
-````
+````solidity
 
 contract MyContrato {
 
